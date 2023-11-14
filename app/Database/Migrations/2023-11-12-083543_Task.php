@@ -22,10 +22,7 @@ class Task extends Migration
                 'type' => 'TEXT',
                 'null' => true,
             ],
-            'completed' => [
-                'type' => 'BOOLEAN',
-                'default' => false,
-            ],
+           
         ]);
 
         $this->forge->addKey('id' , true);
